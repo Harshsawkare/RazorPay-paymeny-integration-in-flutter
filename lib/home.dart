@@ -31,7 +31,7 @@ class _HomeState extends State<Home> {
 
   void openCheckout(){
     var options = {
-      "key" : "rzp_test_ykqs4Jhk8jQEwy",
+      "key" : "", //enter key id from your razor pay account
       "amount" : num.parse(textEditingController.text)*100,
       "name" : "Audrey Hope",
       "description" : "you are paying us",
